@@ -92,7 +92,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 SizedBox(
                   height: 20,
                 ),
-                CustomButon(
+                CustomButton(
                   onTap: () async {
                     if (formKey.currentState!.validate()) {
                       isLoading = true;
